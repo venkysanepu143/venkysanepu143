@@ -1,0 +1,12 @@
+num1 = int(input("Enter first number: "))  
+num2 = int(input("Enter second number: "))   
+#Compare both the number 
+ if(num1 - num2 > 0): 
+print("{0} is largest than {1}".format(num1, num2)) 
+elif(num2 - num1 > 0):     
+print("{0} is largest than {1}".format(num2, num1)) 
+else:     print("Both numbers are Equal")
+Output:
+Enter first number 10
+Enter second number 12
+12 is the largest than 10
